@@ -1,0 +1,111 @@
+.content {
+    grid-area: content;
+    background-color: rgba(230, 230, 250, 0.4);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    min-height: 950px;
+}
+
+.dialogs {
+    width: 17%;
+    background-color: rgba(230, 230, 250, 0.36);
+    border-style: groove;
+    border-color: #130127;
+    border-width: 1px;
+    border-radius: 7px;
+    position: fixed;
+    height: 100%;
+    box-shadow: 3px 10px 10px rgba(13, 0, 27, 0.55);
+}
+
+.dialogs div {
+    height: 60px;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(64, 0, 73, 0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 500;
+
+
+}
+
+.dialog {
+    width: 100%;
+    padding: 50px 20px 50px 370px;
+}
+
+.dialog div {
+    border-radius: 12px;
+    padding: 10px;
+    background-color: lavender;
+    margin: 7px;
+    width: fit-content;
+    word-wrap: break-word;
+    max-width: 400px;
+    white-space: pre-wrap;
+}
+
+.active {
+    color: rgba(249, 251, 255, 0.82) !important;
+    font-size: 25px;
+    -webkit-text-shadow: 0 0 3px #150034;
+    text-shadow: 0 0 3px #1c0050;
+    -moz-text-shadow: 0 0 3px #150034;
+}
+
+.unlink {
+    text-decoration: none;
+    color: #370049;
+}
+
+.sendmsg {
+    height: 60px;
+    position: fixed;
+    width: 50%;
+    margin-top: 825px !important;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.addmsg {
+    border-radius: 10px;
+    height: 28px;
+    width: 80px;
+    align-self: center;
+    margin-left: 10px;
+    background-color: #030542;
+    text-transform: uppercase;
+    color: white;
+    -moz-box-shadow: 0 0 2px #000;
+    -webkit-box-shadow: 0 0 2px #000;
+    box-shadow: 0 0 2px #000;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 7px;
+}
+
+button:active, button:focus {
+    outline: none !important;
+
+}
+
+button::-moz-focus-inner {
+    border: 0 !important;
+}
+
+button:hover {
+    background-color: #030542;
+    -moz-box-shadow: 0 0 10px #000;
+    -webkit-box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px #000;
+}

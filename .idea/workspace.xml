@@ -1,9 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="abccc552-67b3-4279-9a93-3e93973f3431" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Z2oPVBXWpwqsXDXyitING0RSRL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Redux" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="ts.external.directory.path" value="C:\Users\animo\OneDrive\Рабочий стол\React\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Redux" />
+      <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Components\Profile" />
+      <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Components\Dialogs" />
+      <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Components\Profile\Myposts" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\image" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Components/Profile/Myposts/Post1" />
+      <recent name="$PROJECT_DIR$/src/Components/Profile" />
+      <recent name="$PROJECT_DIR$/src/Components/Navigation" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abccc552-67b3-4279-9a93-3e93973f3431" name="Default Changelist" comment="" />
+      <created>1584046525745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584046525745</updated>
+      <workItem from="1584046527250" duration="888000" />
+      <workItem from="1584111444169" duration="9852000" />
+      <workItem from="1584195587458" duration="12174000" />
+      <workItem from="1584208842565" duration="13570000" />
+      <workItem from="1584301055081" duration="7856000" />
+      <workItem from="1584369324777" duration="2016000" />
+      <workItem from="1584374137287" duration="2215000" />
+      <workItem from="1584376370164" duration="246000" />
+      <workItem from="1584376628215" duration="177000" />
+      <workItem from="1584376818582" duration="13387000" />
+      <workItem from="1584471074555" duration="1816000" />
+      <workItem from="1585077700001" duration="1843000" />
+      <workItem from="1585144306052" duration="4850000" />
+      <workItem from="1585242894740" duration="3987000" />
+      <workItem from="1585324115163" duration="2986000" />
+      <workItem from="1585392727521" duration="12912000" />
+      <workItem from="1585419254437" duration="124000" />
+      <workItem from="1585893204578" duration="627000" />
+      <workItem from="1585893857818" duration="553000" />
+      <workItem from="1585894444854" duration="14474000" />
+      <workItem from="1586002939498" duration="11472000" />
+      <workItem from="1586089063359" duration="412000" />
+      <workItem from="1586113091491" duration="2010000" />
+      <workItem from="1586275977823" duration="289000" />
+      <workItem from="1586276297349" duration="6000" />
+      <workItem from="1586276949298" duration="3975000" />
+      <workItem from="1586281138097" duration="1571000" />
+      <workItem from="1586351261021" duration="2281000" />
+      <workItem from="1586360525299" duration="266000" />
+      <workItem from="1586360808616" duration="3997000" />
+      <workItem from="1586631372213" duration="2268000" />
+      <workItem from="1586793127069" duration="2273000" />
+      <workItem from="1586804472839" duration="6678000" />
+      <workItem from="1586876210630" duration="78000" />
+      <workItem from="1586892717976" duration="2968000" />
+      <workItem from="1587053513631" duration="9057000" />
+      <workItem from="1587074441213" duration="341000" />
+      <workItem from="1587113828352" duration="19702000" />
+      <workItem from="1587237959649" duration="5087000" />
+      <workItem from="1587251953588" duration="3332000" />
+      <workItem from="1587280571537" duration="14279000" />
+      <workItem from="1587490786683" duration="15503000" />
+      <workItem from="1587584386563" duration="1525000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="588" y="214" width="800" height="677" key="#ESLint" timestamp="1584130754505">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="214" width="800" height="677" key="#ESLint/67.27.1853.1053@67.27.1853.1053" timestamp="1584130754505" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585419317320">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1585419317320" />
+    <state width="1830" height="261" key="GridCell.Tab.0.bottom" timestamp="1584471049537">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="261" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584471049537" />
+    <state width="1830" height="261" key="GridCell.Tab.0.center" timestamp="1584471049536">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="261" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584471049536" />
+    <state width="1830" height="261" key="GridCell.Tab.0.left" timestamp="1584471049536">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="261" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584471049536" />
+    <state width="1830" height="261" key="GridCell.Tab.0.right" timestamp="1584471049536">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="261" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584471049536" />
+    <state x="67" y="27" width="1373" height="708" key="dock-window-1" timestamp="1584470068980">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="67" y="27" width="1373" height="708" key="dock-window-1/67.27.1853.1053@67.27.1853.1053" timestamp="1584470068980" />
+    <state x="657" y="253" key="run.anything.popup" timestamp="1584305730934">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1584305730934" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1585254759023">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1585254759023" />
   </component>
 </project>

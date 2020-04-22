@@ -1,0 +1,38 @@
+.sidebar {
+    grid-area: nav;
+    background-color: rgba(92, 31, 247, 0.03);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    height: 290px;
+    position:fixed;
+    margin-top: 70px;
+    width: 205px !important;
+
+
+}
+.sidebar__item{
+margin-top: 6px;
+    border-style: groove;
+    text-align: center;
+    border-color: rgba(27, 29, 138, 0.43);
+    background-color: rgba(236, 235, 255, 0);
+    border-radius: 3px;
+    border-width: 0.1px;
+    padding: 6px;
+    text-decoration: none;
+    color: #2e0036;
+}
+.sidebar__item:last-child{
+    margin-top: 50px;
+}
+
+.sidebar__item:hover{
+    background-color: rgba(33, 15, 144, 0.43);
+    color: lavender;
+}
+.active{
+    color: #001a60;
+    font-size: 20px;
+
+}
