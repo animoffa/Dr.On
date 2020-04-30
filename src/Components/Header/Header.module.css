@@ -3,30 +3,59 @@
     background-color: #050b40;
     border-radius: 6px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-direction: row;
     align-content: center;
-   position:fixed;
+    position: fixed;
     width: 1300px;
     height: 55px;
 }
-.s{
+
+.s {
     background-color: #050b40;
     border-radius: 6px;
     display: flex;
-    justify-content:left;
+    justify-content: left;
     flex-direction: row;
     align-content: center;
 }
+
 .header__logo {
     height: 60px;
     margin-left: 20px;
 
 }
-.name{
-margin-top:10px;
+
+.name {
+    margin-top: 15px;
     color: #e6e6fa;
     font-family: serif;
     font-size: 18px;
+}
 
+.auth {
+    display: flex;
+    flex-direction: row;
+    color: lavender;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+.authLogin {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-top: 7px;
+}
+
+@media (max-width: 1300px) {
+    .header {
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .header {
+        width: 100%;
+    }
 }

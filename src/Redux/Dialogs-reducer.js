@@ -1,5 +1,4 @@
 const ADD_MSG= 'ADD-MSG';
-const UPDATE_NEW_MSG_TEXT = 'UPDATE-NEW-MSG-TEXT';
 
 let inicialisateState={
     DialogData: [
@@ -15,38 +14,21 @@ let inicialisateState={
         {msg: "how are u"},
         {msg: "what are u doing"},
     ],
-    NewMsgText: "",
 };
 
 const Dialogsreducer=(state=inicialisateState,action)=>{
     if (action.type === ADD_MSG){
-        let newMsg = {
-            msg: state.NewMsgText
-        };
+        let body = action.value;
+
         return{
             ...state,
-            NewMsgText:"",
-            MessageData:[...state.MessageData,newMsg],
+            MessageData:[...state.MessageData,{msg:body}],
 
-        };
-    } else if (action.type === UPDATE_NEW_MSG_TEXT) {
-        return {
-            ...state,
-            NewMsgText: action.newMText,
         };
     }
     return state;
 };
-export const updateNewMsgTextCreateAction=(text)=>{
-    return{
-        type:UPDATE_NEW_MSG_TEXT,
-        newMText:text,
-    }
-};
-export const addMsgCreateAction = () => {
-    return {
-        type: ADD_MSG
-    }
-};
+export const addMsg = (value) => ({type: ADD_MSG, value});
+
 
 export default Dialogsreducer;

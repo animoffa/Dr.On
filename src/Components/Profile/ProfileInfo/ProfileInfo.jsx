@@ -8,9 +8,14 @@ import groups from "../../../image/groups.png";
 import photos from "../../../image/photos.png";
 import message from "../../../image/message.png";
 import defaultPhoto from "../../../image/friends.png";
+import ProfileStatus from "../ProfileStatus";
+import spinner from "../../../image/spinner.gif";
+import ProfileStatusWithHooks from "../ProfileStatusWithHooks";
 
 const ProfileInfo = (props) => {
-
+if(!props.profile){
+    return <img src={spinner} width="1035px"/>
+}
     return (
         <div>
             <img className={p.content__mainimg}
@@ -20,14 +25,15 @@ const ProfileInfo = (props) => {
                      src={props.profile.photos.large!= null ? props.profile.photos.large : defaultPhoto}/>
                 <div className={p.userdescription}>
                     <div className={p.fullName}>{props.profile.fullName}</div>
-                    <div>{props.profile.aboutMe}</div>
+                    <ProfileStatusWithHooks status={props.status} UpdateStatus={props.UpdateStatus}/>
                 </div>
+                <div className={p.butt}>
                 <button className={css.m}><img src={message} className={css.icons} width="60px"/></button>
                 <button className={css.m}><img src={music} className={css.icons} width="60px"/></button>
                 <button className={css.m}><img src={friends} className={css.icons} width="60px"/></button>
                 <button className={css.m}><img src={groups} className={css.icons} width="60px"/></button>
                 <button className={css.m}><img src={photos} className={css.icons} width="60px"/></button>
-
+                </div>
             </div>
             <div className={p.line}></div>
         </div>

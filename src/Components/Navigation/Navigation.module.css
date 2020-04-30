@@ -1,13 +1,13 @@
 .sidebar {
-    grid-area: nav;
-    background-color: rgba(92, 31, 247, 0.03);
     display: flex;
+    background-color: rgba(92, 31, 247, 0.03);
     flex-direction: column;
     border-radius: 5px;
     height: 290px;
-    position:fixed;
     margin-top: 70px;
-    width: 205px !important;
+    width: 209px;
+    margin-right:20px;
+    z-index:1;
 
 
 }
@@ -34,5 +34,30 @@ margin-top: 6px;
 .active{
     color: #001a60;
     font-size: 20px;
+}
+.icons{
+    display: none;
+}
 
+@media (max-width:1300px){
+    .sidebar{
+        position:fixed;
+        left:0;
+        bottom:0;
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        height:55px;
+        justify-content: space-around;
+        background-color:#f9fbff
+}
+    .sidebar__item:last-child{
+        margin-top: 6px;
+    }
+.icons{
+    display:inline-block;
+}
+    .words{
+display:none;
+    }
 }

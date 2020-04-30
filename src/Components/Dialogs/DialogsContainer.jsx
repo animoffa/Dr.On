@@ -1,7 +1,9 @@
 import React from "react";
 import Dialogs from "./Dialogs";
 import {connect} from "react-redux";
-import {addMsgCreateAction, updateNewMsgTextCreateAction} from "../../Redux/Dialogs-reducer";
+import {addMsg} from "../../Redux/Dialogs-reducer";
+import {withAuthRedirect} from "../hoc/withAuthRedirect";
+import {compose} from "redux";
 
 let mapStateToProps=(state)=>{
         return{
@@ -13,14 +15,12 @@ let mapStateToProps=(state)=>{
 };
     let mapDispatchToProps=(dispatch)=>{
       return{
-          updateNewText: (text)=>{
-              dispatch(updateNewMsgTextCreateAction(text));
-          },
-          Addmsg: ()=>{
-              dispatch(addMsgCreateAction());
+          addMsg: (value)=>{
+              dispatch(addMsg(value));
           }
       }
     };
-const DialogsContainer=connect(mapStateToProps, mapDispatchToProps)(Dialogs);
-
-export default DialogsContainer;
+    export default compose(
+        connect(mapStateToProps, mapDispatchToProps),
+        withAuthRedirect
+    )(Dialogs);

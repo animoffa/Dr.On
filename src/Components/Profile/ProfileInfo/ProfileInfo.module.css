@@ -23,9 +23,10 @@
 .profile {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: space-between;
     margin: 0 50px;
     padding-top: 30px;
+
 
 }
 
@@ -35,4 +36,25 @@
     font-size: 14px;
     padding: 25px;
 }
+.butt{
+    width:300px;
 
+}
+@media (max-width:850px){
+    .content__mainimg{
+        display: none;
+    }
+    .profile{
+        flex-direction:column;
+        align-items: center;
+        margin:0;
+    }
+.useravatar {
+    padding-top: 40px;
+    width: 40%;
+    height: 40%;
+}
+.line{
+    display:none;
+}
+}
