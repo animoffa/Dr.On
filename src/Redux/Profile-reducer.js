@@ -4,6 +4,7 @@ const ADD_POST = 'ADD-POST';
 const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
 const SET_USERS_PROFILE='SET_USERS_PROFILE';
 const SET_STATUS='SET_STATUS';
+const DELETE_POST= 'DELETE_POST';
 
 let inicialisateState = {
     PostData: [],
@@ -17,7 +18,7 @@ const Profilereducer = (state = inicialisateState, action) => {
 
             let newPost = {
                 msg: action.value,
-                id: 3,
+                id: 1,
                 likecount: 0,
             };
             return {
@@ -35,6 +36,9 @@ const Profilereducer = (state = inicialisateState, action) => {
 
         case SET_USERS_PROFILE:
             return {...state, Profile:action.profile};
+
+        case DELETE_POST:
+            return {...state,PostData:state.PostData.filter(p => p.id !== action.id)};
         default:
             return state;
     }
@@ -47,6 +51,7 @@ export const addPost = (value) => {
 };
 export const setUsersProfile=(profile)=>({type:SET_USERS_PROFILE,profile});
 export const setStatus=(status)=>({type:SET_STATUS,status});
+export const deletePost=(id)=>({type:DELETE_POST,id});
 
 export const getProfile=(userID)=>{
   return (dispatch)=>{

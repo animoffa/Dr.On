@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import p from "./Profile.module.css";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
 import MypostsContainer from "./Myposts/MypostsContainer";
@@ -6,6 +6,10 @@ import MypostsContainer from "./Myposts/MypostsContainer";
 const ProfileStatusWithHooks = (props) => {
     let [status,setStatus]=useState(props.status);
     let [editMode,setEditMode]=useState(false);
+
+    useEffect(()=>{
+setStatus(props.status);
+    },[props.status]);
 
     let activateEditMode=()=>{
         setEditMode(true);

@@ -7,7 +7,7 @@ import {Textarea} from "../../FormControls/FormControls";
 
 let maxLength100=maxLengthCreator(100);
 
-const Myposts = (props) => {
+const Myposts=React.memo((props) =>{
 
     let Posts = props.PostData.map(p => <Posts1 likecount={p.likecount} message={p.msg} id={p.id}/>);
 
@@ -19,7 +19,7 @@ const Myposts = (props) => {
         <SetPostRedux onSubmit={Addpost1}/>
         {Posts}
     </div>
-};
+});
 
 const SetPost=(props)=>{
     return(

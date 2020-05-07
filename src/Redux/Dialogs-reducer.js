@@ -1,4 +1,4 @@
-const ADD_MSG= 'ADD-MSG';
+const ADD_MSG= 'Dialogs/ADD-MSG';
 
 let inicialisateState={
     DialogData: [
@@ -19,11 +19,7 @@ let inicialisateState={
 const Dialogsreducer=(state=inicialisateState,action)=>{
     if (action.type === ADD_MSG){
         let body = action.value;
-
-        return{
-            ...state,
-            MessageData:[...state.MessageData,{msg:body}],
-
+        return{...state, MessageData:[...state.MessageData,{msg:body}],
         };
     }
     return state;

@@ -10,6 +10,7 @@ import photos from "../../image/photos.png";
 import message from "../../image/message.png";
 import {NavLink} from "react-router-dom";
 import * as axios from "axios";
+import Paginator from "./Paginator";
 
 let Friends = (props) => {
 
@@ -68,18 +69,8 @@ let Friends = (props) => {
             )
         }
         <div>
-            {
-                page.map(function (page, index) {
-
-                    if (index<=7) {
-                        return <>
-                        <span className={props.currentPage === page && css.selectednum} onClick={(e) => {
-                            props.onPageChanged(page)
-                        }}>{page}</span>
-                        </>
-                    }
-                })
-            }
+          <Paginator currentPage={props.currentPage} onPageChanged={props.onPageChanged}
+          totalUsersCount={props.totalUsersCount} pageSize={props.pageSize}/>
         </div>
 
     </div>

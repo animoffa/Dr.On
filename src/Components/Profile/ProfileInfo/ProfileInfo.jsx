@@ -8,7 +8,6 @@ import groups from "../../../image/groups.png";
 import photos from "../../../image/photos.png";
 import message from "../../../image/message.png";
 import defaultPhoto from "../../../image/friends.png";
-import ProfileStatus from "../ProfileStatus";
 import spinner from "../../../image/spinner.gif";
 import ProfileStatusWithHooks from "../ProfileStatusWithHooks";
 

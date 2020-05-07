@@ -5,31 +5,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Enter/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Enter/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navigation/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation/Navigation.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/Myposts/Myposts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Myposts/Myposts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Myposts/Myposts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Myposts/Myposts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Myposts/MypostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Myposts/MypostsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Myposts/Post1/Post1.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Myposts/Post1/Post1.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileStatusWithHooks.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/friends/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/friends/Friends.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/friends/Friends.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/friends/Friends.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/friends/FriendsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/friends/FriendsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/App-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/App-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/Auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/Dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Dialogs-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/Friends-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Friends-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/Profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Profile-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/redux-store.js" afterDir="false" />
     </list>
@@ -42,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -63,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Profile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/friends" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -74,6 +59,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -88,11 +74,11 @@
       <recent name="$PROJECT_DIR$/src/Components/Navigation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Components\Profile" />
+      <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Components\friends" />
       <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Redux" />
+      <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Components\Profile" />
       <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Components\Header" />
       <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Components\Dialogs" />
-      <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Components\Profile\Myposts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,7 +93,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Jest.length of posts should be decremented">
+    <configuration name="length of posts should be decremented" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Redux/Profile-reducer.test.js" />
+      <test-names>
+        <test-name value="length of posts should be decremented" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="length of posts should be incremented" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Redux/Profile-reducer.test.js" />
+      <test-names>
+        <test-name value="length of posts should be incremented" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -121,6 +133,12 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.length of posts should be decremented" />
+        <item itemvalue="Jest.length of posts should be incremented" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -187,7 +205,18 @@
       <workItem from="1588089970941" duration="12320000" />
       <workItem from="1588105493021" duration="114000" />
       <workItem from="1588179972822" duration="3960000" />
-      <workItem from="1588238318467" duration="3861000" />
+      <workItem from="1588238318467" duration="11075000" />
+      <workItem from="1588266206517" duration="4165000" />
+      <workItem from="1588271123439" duration="645000" />
+      <workItem from="1588272758577" duration="91000" />
+      <workItem from="1588436557124" duration="3247000" />
+      <workItem from="1588456215937" duration="982000" />
+      <workItem from="1588459018821" duration="343000" />
+      <workItem from="1588579702548" duration="2651000" />
+      <workItem from="1588601100716" duration="4272000" />
+      <workItem from="1588612356413" duration="367000" />
+      <workItem from="1588657731134" duration="2890000" />
+      <workItem from="1588693549884" duration="8553000" />
     </task>
     <servers />
   </component>

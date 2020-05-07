@@ -1,13 +1,11 @@
-import React, {Component} from 'react';
+import React, {Component, Suspense} from 'react';
 
 import './App.css';
 import Navigation from "./Components/Navigation/Navigation";
-import DialogsContainer from "./Components/Dialogs/DialogsContainer";
 import {BrowserRouter, Route} from "react-router-dom";
 import Music from "./Components/Music/Music";
 import News from "./Components/News/News";
 import Settings from "./Components/Settings/Settings";
-import FriendsContainer from "./Components/friends/FriendsContainer";
 import Login from "./Components/Enter/Login";
 import SignUp from "./Components/Enter/SignUp";
 import ProfileContainer from "./Components/Profile/ProfileContainer";
@@ -16,6 +14,8 @@ import {connect} from "react-redux";
 import {initializeApp} from "./Redux/App-reducer";
 import spinner from "./image/spinner.gif";
 
+const DialogsContainer = React.lazy(() => import("./Components/Dialogs/DialogsContainer"));
+const FriendsContainer = React.lazy(() => import("./Components/friends/FriendsContainer"));
 
 class App extends Component {
     componentDidMount() {
@@ -35,9 +35,15 @@ if (!this.props.initialized){
                                 <Navigation/>
                             </div>
                             <div className="main__content">
-                                <Route path="/dialogs" render={() => <DialogsContainer/>}/>
+                                <Route path="/dialogs" render={() =>{
+                                    return <Suspense fallback={<div>Загрузка...</div>}>
+                                    <DialogsContainer/>
+                                    </Suspense>}}/>
                                 <Route path="/profile/:userID?" render={() => <ProfileContainer/>}/>
-                                <Route path="/friends" render={() => <FriendsContainer/>}/>
+                                <Route path="/friends" render={() => {
+                                    return <Suspense fallback={<div>Загрузка...</div>}>
+                                        <FriendsContainer/>
+                                    </Suspense>}}/>
                                 <Route path="/music" render={() => <Music/>}/>
                                 <Route path="/news" render={() => <News/>}/>
                                 <Route path="/settings" render={() => <Settings/>}/>

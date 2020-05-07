@@ -1,0 +1,21 @@
+.selectednum {
+    font-weight: bold;
+}
+.paginator{
+    display: flex;
+    justify-content: center;
+}
+.icons {
+    background-color: rgba(5, 11, 64, 0);
+    border: none;
+    margin: 3px 4px;
+    border-radius: 50%;
+    padding: 0;
+    width: 25px;
+}
+.icons:last-child{
+  width:27px;
+}
+.num{
+    margin:3px;
+}
