@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/Dr.On/static/css/main.a794d95a.chunk.css",
-    "main.js": "/Dr.On/static/js/main.27c4740a.chunk.js",
-    "main.js.map": "/Dr.On/static/js/main.27c4740a.chunk.js.map",
-    "runtime-main.js": "/Dr.On/static/js/runtime-main.506d7692.js",
-    "runtime-main.js.map": "/Dr.On/static/js/runtime-main.506d7692.js.map",
-    "static/js/2.7ffc43a3.chunk.js": "/Dr.On/static/js/2.7ffc43a3.chunk.js",
-    "static/js/2.7ffc43a3.chunk.js.map": "/Dr.On/static/js/2.7ffc43a3.chunk.js.map",
+    "main.js": "/Dr.On/static/js/main.0912f004.chunk.js",
+    "main.js.map": "/Dr.On/static/js/main.0912f004.chunk.js.map",
+    "runtime-main.js": "/Dr.On/static/js/runtime-main.be884e8c.js",
+    "runtime-main.js.map": "/Dr.On/static/js/runtime-main.be884e8c.js.map",
+    "static/js/2.484dfbbd.chunk.js": "/Dr.On/static/js/2.484dfbbd.chunk.js",
+    "static/js/2.484dfbbd.chunk.js.map": "/Dr.On/static/js/2.484dfbbd.chunk.js.map",
     "static/css/3.0ff178b5.chunk.css": "/Dr.On/static/css/3.0ff178b5.chunk.css",
-    "static/js/3.3d54592c.chunk.js": "/Dr.On/static/js/3.3d54592c.chunk.js",
-    "static/js/3.3d54592c.chunk.js.map": "/Dr.On/static/js/3.3d54592c.chunk.js.map",
+    "static/js/3.cc05cc59.chunk.js": "/Dr.On/static/js/3.cc05cc59.chunk.js",
+    "static/js/3.cc05cc59.chunk.js.map": "/Dr.On/static/js/3.cc05cc59.chunk.js.map",
     "static/css/4.908fa835.chunk.css": "/Dr.On/static/css/4.908fa835.chunk.css",
-    "static/js/4.2bda64e2.chunk.js": "/Dr.On/static/js/4.2bda64e2.chunk.js",
-    "static/js/4.2bda64e2.chunk.js.map": "/Dr.On/static/js/4.2bda64e2.chunk.js.map",
+    "static/js/4.5d8e127c.chunk.js": "/Dr.On/static/js/4.5d8e127c.chunk.js",
+    "static/js/4.5d8e127c.chunk.js.map": "/Dr.On/static/js/4.5d8e127c.chunk.js.map",
     "index.html": "/Dr.On/index.html",
-    "precache-manifest.4d4b0b88cd28110f1cb96d9bc435e1cc.js": "/Dr.On/precache-manifest.4d4b0b88cd28110f1cb96d9bc435e1cc.js",
+    "precache-manifest.74f17611059302a90815e7ee6fadb6f3.js": "/Dr.On/precache-manifest.74f17611059302a90815e7ee6fadb6f3.js",
     "service-worker.js": "/Dr.On/service-worker.js",
     "static/css/3.0ff178b5.chunk.css.map": "/Dr.On/static/css/3.0ff178b5.chunk.css.map",
     "static/css/4.908fa835.chunk.css.map": "/Dr.On/static/css/4.908fa835.chunk.css.map",
     "static/css/main.a794d95a.chunk.css.map": "/Dr.On/static/css/main.a794d95a.chunk.css.map",
-    "static/js/2.7ffc43a3.chunk.js.LICENSE.txt": "/Dr.On/static/js/2.7ffc43a3.chunk.js.LICENSE.txt",
-    "static/js/3.3d54592c.chunk.js.LICENSE.txt": "/Dr.On/static/js/3.3d54592c.chunk.js.LICENSE.txt",
+    "static/js/2.484dfbbd.chunk.js.LICENSE.txt": "/Dr.On/static/js/2.484dfbbd.chunk.js.LICENSE.txt",
+    "static/js/3.cc05cc59.chunk.js.LICENSE.txt": "/Dr.On/static/js/3.cc05cc59.chunk.js.LICENSE.txt",
     "static/media/ext.png": "/Dr.On/static/media/ext.ea744a80.png",
     "static/media/follow.png": "/Dr.On/static/media/follow.eea90af4.png",
     "static/media/groups.png": "/Dr.On/static/media/groups.e3b3d379.png",
@@ -33,9 +33,9 @@
     "static/media/unnamed2.png": "/Dr.On/static/media/unnamed2.4e564bbd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.506d7692.js",
-    "static/js/2.7ffc43a3.chunk.js",
+    "static/js/runtime-main.be884e8c.js",
+    "static/js/2.484dfbbd.chunk.js",
     "static/css/main.a794d95a.chunk.css",
-    "static/js/main.27c4740a.chunk.js"
+    "static/js/main.0912f004.chunk.js"
   ]
 }
