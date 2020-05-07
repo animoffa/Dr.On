@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Dr.On/static/css/main.a794d95a.chunk.css",
-    "main.js": "/Dr.On/static/js/main.bf7a1cb7.chunk.js",
-    "main.js.map": "/Dr.On/static/js/main.bf7a1cb7.chunk.js.map",
+    "main.js": "/Dr.On/static/js/main.27c4740a.chunk.js",
+    "main.js.map": "/Dr.On/static/js/main.27c4740a.chunk.js.map",
     "runtime-main.js": "/Dr.On/static/js/runtime-main.506d7692.js",
     "runtime-main.js.map": "/Dr.On/static/js/runtime-main.506d7692.js.map",
     "static/js/2.7ffc43a3.chunk.js": "/Dr.On/static/js/2.7ffc43a3.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/4.2bda64e2.chunk.js": "/Dr.On/static/js/4.2bda64e2.chunk.js",
     "static/js/4.2bda64e2.chunk.js.map": "/Dr.On/static/js/4.2bda64e2.chunk.js.map",
     "index.html": "/Dr.On/index.html",
-    "precache-manifest.53ab523e07bbc74808c7a7811c4d1f76.js": "/Dr.On/precache-manifest.53ab523e07bbc74808c7a7811c4d1f76.js",
+    "precache-manifest.4d4b0b88cd28110f1cb96d9bc435e1cc.js": "/Dr.On/precache-manifest.4d4b0b88cd28110f1cb96d9bc435e1cc.js",
     "service-worker.js": "/Dr.On/service-worker.js",
     "static/css/3.0ff178b5.chunk.css.map": "/Dr.On/static/css/3.0ff178b5.chunk.css.map",
     "static/css/4.908fa835.chunk.css.map": "/Dr.On/static/css/4.908fa835.chunk.css.map",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.506d7692.js",
     "static/js/2.7ffc43a3.chunk.js",
     "static/css/main.a794d95a.chunk.css",
-    "static/js/main.bf7a1cb7.chunk.js"
+    "static/js/main.27c4740a.chunk.js"
   ]
 }
