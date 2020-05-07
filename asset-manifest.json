@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Dr.On/static/css/main.a794d95a.chunk.css",
+    "main.js": "/Dr.On/static/js/main.bf7a1cb7.chunk.js",
+    "main.js.map": "/Dr.On/static/js/main.bf7a1cb7.chunk.js.map",
+    "runtime-main.js": "/Dr.On/static/js/runtime-main.506d7692.js",
+    "runtime-main.js.map": "/Dr.On/static/js/runtime-main.506d7692.js.map",
+    "static/js/2.7ffc43a3.chunk.js": "/Dr.On/static/js/2.7ffc43a3.chunk.js",
+    "static/js/2.7ffc43a3.chunk.js.map": "/Dr.On/static/js/2.7ffc43a3.chunk.js.map",
+    "static/css/3.0ff178b5.chunk.css": "/Dr.On/static/css/3.0ff178b5.chunk.css",
+    "static/js/3.3d54592c.chunk.js": "/Dr.On/static/js/3.3d54592c.chunk.js",
+    "static/js/3.3d54592c.chunk.js.map": "/Dr.On/static/js/3.3d54592c.chunk.js.map",
+    "static/css/4.908fa835.chunk.css": "/Dr.On/static/css/4.908fa835.chunk.css",
+    "static/js/4.2bda64e2.chunk.js": "/Dr.On/static/js/4.2bda64e2.chunk.js",
+    "static/js/4.2bda64e2.chunk.js.map": "/Dr.On/static/js/4.2bda64e2.chunk.js.map",
+    "index.html": "/Dr.On/index.html",
+    "precache-manifest.53ab523e07bbc74808c7a7811c4d1f76.js": "/Dr.On/precache-manifest.53ab523e07bbc74808c7a7811c4d1f76.js",
+    "service-worker.js": "/Dr.On/service-worker.js",
+    "static/css/3.0ff178b5.chunk.css.map": "/Dr.On/static/css/3.0ff178b5.chunk.css.map",
+    "static/css/4.908fa835.chunk.css.map": "/Dr.On/static/css/4.908fa835.chunk.css.map",
+    "static/css/main.a794d95a.chunk.css.map": "/Dr.On/static/css/main.a794d95a.chunk.css.map",
+    "static/js/2.7ffc43a3.chunk.js.LICENSE.txt": "/Dr.On/static/js/2.7ffc43a3.chunk.js.LICENSE.txt",
+    "static/js/3.3d54592c.chunk.js.LICENSE.txt": "/Dr.On/static/js/3.3d54592c.chunk.js.LICENSE.txt",
+    "static/media/ext.png": "/Dr.On/static/media/ext.ea744a80.png",
+    "static/media/follow.png": "/Dr.On/static/media/follow.eea90af4.png",
+    "static/media/groups.png": "/Dr.On/static/media/groups.e3b3d379.png",
+    "static/media/heart.png": "/Dr.On/static/media/heart.74e518a1.png",
+    "static/media/message.png": "/Dr.On/static/media/message.580a2b0a.png",
+    "static/media/photos.png": "/Dr.On/static/media/photos.68d58cbd.png",
+    "static/media/spinner.gif": "/Dr.On/static/media/spinner.192fe8e4.gif",
+    "static/media/unfollow.png": "/Dr.On/static/media/unfollow.30cec5de.png",
+    "static/media/unnamed.png": "/Dr.On/static/media/unnamed.04c38d2c.png",
+    "static/media/unnamed2.png": "/Dr.On/static/media/unnamed2.4e564bbd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.506d7692.js",
+    "static/js/2.7ffc43a3.chunk.js",
+    "static/css/main.a794d95a.chunk.css",
+    "static/js/main.bf7a1cb7.chunk.js"
+  ]
+}
