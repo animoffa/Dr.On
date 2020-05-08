@@ -5,24 +5,63 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Enter/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Enter/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Enter/Login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Enter/Login.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Enter/SignUp.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FormControls/FormControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FormControls/FormControls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FormControls/FormControls.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FormControls/FormControls.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Music/Music.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Music/Music.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navigation/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation/Navigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/News/News.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/News/News.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/Myposts/Myposts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Myposts/Myposts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Myposts/Myposts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Myposts/Myposts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Myposts/MypostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Myposts/MypostsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Myposts/Post1/Post1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Myposts/Post1/Post1.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Myposts/Post1/Post1.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Myposts/Post1/Post1.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileStatus.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileStatusWithHooks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Settings/Settings.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Settings/Settings.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/friends/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/friends/Friends.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/friends/Friends.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/friends/Friends.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/friends/FriendsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/friends/FriendsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/friends/Paginator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/friends/Paginator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/friends/Paginator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/friends/Paginator.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/hoc/withAuthRedirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/hoc/withAuthRedirect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/App-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/App-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/Auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/Dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Dialogs-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/Friends-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Friends-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/Profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Profile-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/usersSelectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/usersSelectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/Validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/Validators.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="samurayway" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,7 +87,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/friends" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -66,19 +105,19 @@
     <property name="ts.external.directory.path" value="C:\Users\animo\OneDrive\Рабочий стол\React\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\image" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/Components/Profile/Myposts/Post1" />
-      <recent name="$PROJECT_DIR$/src/Components/Profile" />
-      <recent name="$PROJECT_DIR$/src/Components/Navigation" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Components\friends" />
       <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Redux" />
       <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Components\Profile" />
       <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Components\Header" />
       <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\Components\Dialogs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\animo\OneDrive\Рабочий стол\samurayway\src\image" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Components/Profile/Myposts/Post1" />
+      <recent name="$PROJECT_DIR$/src/Components/Profile" />
+      <recent name="$PROJECT_DIR$/src/Components/Navigation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -93,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.length of posts should be decremented">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="length of posts should be decremented" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -123,6 +162,16 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -135,6 +184,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="Jest.length of posts should be decremented" />
         <item itemvalue="Jest.length of posts should be incremented" />
       </list>
@@ -217,6 +267,10 @@
       <workItem from="1588612356413" duration="367000" />
       <workItem from="1588657731134" duration="2890000" />
       <workItem from="1588693549884" duration="8553000" />
+      <workItem from="1588829210065" duration="4674000" />
+      <workItem from="1588837020230" duration="5119000" />
+      <workItem from="1588846632783" duration="7886000" />
+      <workItem from="1588932172836" duration="28486000" />
     </task>
     <servers />
   </component>

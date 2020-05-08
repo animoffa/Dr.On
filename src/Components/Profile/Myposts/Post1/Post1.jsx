@@ -1,20 +1,20 @@
 import React from "react";
 import P from "./Post1.module.css"
-
 import like from "../../../../image/heart.png"
+import defaultPhoto from "../../../../image/friends.png";
 
-const Posts1=(props)=>{
-   return <div className={P.post}>
-        <img className={P.img} src="https://www.meme-arsenal.com/memes/141a6c2a8a5a7267b17ca257da29d03a.jpg"/>
-       <div className={P.text}>
-           {props.message}
-       </div>
-       <div>
+const Posts1 = (props) => {
+    return <div className={P.post}>
+        <img className={P.img} src={props.profile.photos.large != null ? props.profile.photos.large : defaultPhoto} alt={"User's avatar"}/>
+        <div className={P.text}>
+            {props.message}
+        </div>
+        <div>
            <span className={P.like}>
                {props.likecount}
-<img className={P.likeimg} src={like}/>
+               <img className={P.likeImg} src={like} alt={"likes"}/>
            </span>
-       </div>
+        </div>
     </div>
 };
 

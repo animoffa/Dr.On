@@ -1,6 +1,39 @@
-.formSummaryError{
+.formSummaryError {
     border: 1px solid red;
     padding: 5px;
-    color:brown;
-    width:30%;
+    color: brown;
+    width: 30%;
+}
+
+.loginForm {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.remember {
+    margin: 5px;
+}
+
+.loginButton {
+    border-radius: 6px;
+    border-width: 1px;
+    height: 28px;
+    width: 80px;
+    margin-top: 12px;
+    font-weight: bold;
+    background-color: #050b40;
+    color: lavender;
+    -moz-box-shadow: 0 0 2px #000;
+    -webkit-box-shadow: 0 0 2px #000;
+    box-shadow: 0 0 2px #000;
+    border-style: groove;
+    border-color: black;
+}
+
+@media (max-width: 800px) {
+    .loginForm {
+        margin-top: 60px;
+    }
 }

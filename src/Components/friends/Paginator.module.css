@@ -1,10 +1,12 @@
-.selectednum {
+.selectedNum {
     font-weight: bold;
 }
-.paginator{
+
+.paginator {
     display: flex;
     justify-content: center;
 }
+
 .icons {
     background-color: rgba(5, 11, 64, 0);
     border: none;
@@ -13,9 +15,12 @@
     padding: 0;
     width: 25px;
 }
-.icons:last-child{
-  width:27px;
+
+.icons:last-child {
+    width: 27px;
 }
-.num{
-    margin:3px;
+
+.num {
+    margin: 3px;
+    font-size: 14px;
 }

@@ -23,7 +23,6 @@
 .header__logo {
     height: 60px;
     margin-left: 20px;
-
 }
 
 .name {
@@ -46,6 +45,11 @@
     font-weight: bold;
     margin-right: 15px;
     margin-top: 7px;
+}
+
+.authText {
+    color: lavender;
+    text-decoration: none;
 }
 
 @media (max-width: 1300px) {

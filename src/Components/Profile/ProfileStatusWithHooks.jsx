@@ -1,25 +1,22 @@
 import React, {useEffect, useState} from "react";
-import p from "./Profile.module.css";
-import ProfileInfo from "./ProfileInfo/ProfileInfo";
-import MypostsContainer from "./Myposts/MypostsContainer";
 
 const ProfileStatusWithHooks = (props) => {
-    let [status,setStatus]=useState(props.status);
-    let [editMode,setEditMode]=useState(false);
+    let [status, setStatus] = useState(props.status);
+    let [editMode, setEditMode] = useState(false);
 
-    useEffect(()=>{
-setStatus(props.status);
-    },[props.status]);
+    useEffect(() => {
+        setStatus(props.status);
+    }, [props.status]);
 
-    let activateEditMode=()=>{
+    let activateEditMode = () => {
         setEditMode(true);
     };
-    let deactivateEditMode=()=>{
-      setEditMode(false);
-      props.UpdateStatus(status);
+    let deactivateEditMode = () => {
+        setEditMode(false);
+        props.UpdateStatus(status);
     };
-    const onStatusChange=(e)=>{
-      setStatus(e.currentTarget.value) ;
+    const onStatusChange = (e) => {
+        setStatus(e.currentTarget.value);
     };
     return (
         <div>
@@ -32,6 +29,5 @@ setStatus(props.status);
         </div>
     )
 };
-
 
 export default ProfileStatusWithHooks;

@@ -5,22 +5,20 @@ import {addMsg} from "../../Redux/Dialogs-reducer";
 import {withAuthRedirect} from "../hoc/withAuthRedirect";
 import {compose} from "redux";
 
-let mapStateToProps=(state)=>{
-        return{
-            DialogData: state.DialogsPage.DialogData,
-            MessageData: state.DialogsPage.MessageData,
-            NewText: state.DialogsPage.NewMsgText,
-        }
-
+let mapStateToProps = (state) => {
+    return {
+        DialogData: state.DialogsPage.DialogData,
+        MessageData: state.DialogsPage.MessageData,
+        NewText: state.DialogsPage.NewMsgText,
+    }
 };
-    let mapDispatchToProps=(dispatch)=>{
-      return{
-          addMsg: (value)=>{
-              dispatch(addMsg(value));
-          }
-      }
-    };
-    export default compose(
-        connect(mapStateToProps, mapDispatchToProps),
-        withAuthRedirect
-    )(Dialogs);
+let mapDispatchToProps = (dispatch) => ({
+    addMsg: (value) => {
+        dispatch(addMsg(value));
+    }
+});
+
+export default compose(
+    connect(mapStateToProps, mapDispatchToProps),
+    withAuthRedirect
+)(Dialogs);

@@ -2,7 +2,7 @@ const ADD_MSG= 'Dialogs/ADD-MSG';
 
 let inicialisateState={
     DialogData: [
-        {name: "Ilusha", id: 1},
+        {name: "Ilya", id: 1},
         {name: "Masha", id: 2},
         {name: "Dasha", id: 3},
         {name: "Sasha", id: 4},
@@ -24,7 +24,7 @@ const Dialogsreducer=(state=inicialisateState,action)=>{
     }
     return state;
 };
-export const addMsg = (value) => ({type: ADD_MSG, value});
 
+export const addMsg = (value) => ({type: ADD_MSG, value});
 
 export default Dialogsreducer;

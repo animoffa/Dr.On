@@ -2,6 +2,7 @@
   "name": "samurayway",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://animoffa.github.io/Dr.On",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -20,6 +21,8 @@
     "reselect": "^4.0.0"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "react-test-renderer": "^16.13.0"
   }
 }

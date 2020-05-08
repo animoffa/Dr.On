@@ -5,7 +5,6 @@ import Left from "../../image/icons8-стрелка-влево-в-круге-50.
 import Right from "../../image/icons8-стрелка-вправо-в-круге-50.png"
 
 let Paginator = (props) => {
-
     let pagesCount = Math.ceil(props.totalUsersCount / props.pageSize);
 
     let page = [];
@@ -18,19 +17,18 @@ let Paginator = (props) => {
     let rightPortionPageNumber=(portionNumber)*10;
 
     return <div className={css.paginator}>
-        {portionNumber>1 && <button className={css.icons} onClick={()=>{setPortionNumber(portionNumber-1)}}><img src={Left} width="24px"/></button>}
+        {portionNumber>1 && <button className={css.icons} onClick={()=>{setPortionNumber(portionNumber-1)}}><img src={Left} width="30px" alt="PREV"/></button>}
             {
                 page.filter(p=> p>=leftPortionPageNumber && p<=rightPortionPageNumber )
                     .map((p)=> {
-                        return <span className={cn({[css.selectednum]: props.currentPage===p},css.num) }
+                        return <span className={cn({[css.selectedNum]: props.currentPage===p},css.num) }
                                      key={p}
                                      onClick={(e) => {
                             props.onPageChanged(p)
                         }}>{p}</span>
-
                 })
             }
-        {portionCount>portionNumber && <button className={css.icons} onClick={()=>{setPortionNumber(portionNumber+1)}}><img src={Right} width="24px"/></button> }
+        {portionCount>portionNumber && <button className={css.icons} onClick={()=>{setPortionNumber(portionNumber+1)}}><img src={Right} width="30px" alt={"NEXT"}/></button> }
         </div>
 
 };

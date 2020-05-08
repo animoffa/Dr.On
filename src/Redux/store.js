@@ -4,7 +4,7 @@ import Profilereducer from "./Profile-reducer";
 
 let store = {
     _state: {
-        ProfilePage: {
+        ProfilePage1: {
             PostData: [],
             NewPostText: "",
         },
@@ -43,4 +43,3 @@ let store = {
 
 
 window.store = store;
-export default store;

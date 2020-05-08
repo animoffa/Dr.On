@@ -1,13 +1,9 @@
 import React, {Component, Suspense} from 'react';
-
 import './App.css';
 import Navigation from "./Components/Navigation/Navigation";
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter, Redirect, Route, Switch} from "react-router-dom";
 import Music from "./Components/Music/Music";
-import News from "./Components/News/News";
-import Settings from "./Components/Settings/Settings";
 import Login from "./Components/Enter/Login";
-import SignUp from "./Components/Enter/SignUp";
 import ProfileContainer from "./Components/Profile/ProfileContainer";
 import HeaderContainer from "./Components/Header/HeaderContainer";
 import {connect} from "react-redux";
@@ -18,37 +14,47 @@ const DialogsContainer = React.lazy(() => import("./Components/Dialogs/DialogsCo
 const FriendsContainer = React.lazy(() => import("./Components/friends/FriendsContainer"));
 
 class App extends Component {
+    catchAllErrors = (reason, promise) => {
+        alert(reason);
+    };
+
     componentDidMount() {
         this.props.initializeApp();
+        window.addEventListener("unhandledrejection", this.catchAllErrors);
     }
+
+    componentWillUnmount() {
+        window.removeEventListener("unhandledrejection", this.catchAllErrors);
+    }
+
     render() {
-if (!this.props.initialized){
-    return <img src={spinner} width="1035px"/>
-}
+        if (!this.props.initialized) {
+            return <img src={spinner} width="1035px"/>
+        }
         return (
             <BrowserRouter>
                 <div className="bg">
                     <div className="main">
                         <HeaderContainer/>
                         <div className="body">
-                            <div>
                                 <Navigation/>
-                            </div>
                             <div className="main__content">
-                                <Route path="/dialogs" render={() =>{
-                                    return <Suspense fallback={<div>Загрузка...</div>}>
-                                    <DialogsContainer/>
-                                    </Suspense>}}/>
-                                <Route path="/profile/:userID?" render={() => <ProfileContainer/>}/>
-                                <Route path="/friends" render={() => {
-                                    return <Suspense fallback={<div>Загрузка...</div>}>
-                                        <FriendsContainer/>
-                                    </Suspense>}}/>
-                                <Route path="/music" render={() => <Music/>}/>
-                                <Route path="/news" render={() => <News/>}/>
-                                <Route path="/settings" render={() => <Settings/>}/>
-                                <Route path="/login" render={() => <Login/>}/>
-                                <Route path="/sign-up" render={() => <SignUp/>}/>
+                                <Switch>
+                                    <Route exact path="/" render={() => <Redirect to={"/profile"}/>}/>
+                                    <Route path="/dialogs" render={() => {
+                                        return <Suspense fallback={<div>Загрузка...</div>}>
+                                            <DialogsContainer/>
+                                        </Suspense>
+                                    }}/>
+                                    <Route path="/profile/:userID?" render={() => <ProfileContainer/>}/>
+                                    <Route path="/friends" render={() => {
+                                        return <Suspense fallback={<div>Загрузка...</div>}>
+                                            <FriendsContainer/>
+                                        </Suspense>
+                                    }}/>
+                                    <Route path="/music" render={() => <Music/>}/>
+                                    <Route path="/login" render={() => <Login/>}/>
+                                </Switch>
                             </div>
                         </div>
                     </div>
@@ -58,7 +64,7 @@ if (!this.props.initialized){
     }
 }
 
-const mapStateToProps=(state)=> ({
-    initialized:state.App.initialized
+const mapStateToProps = (state) => ({
+    initialized: state.App.initialized
 });
 export default connect(mapStateToProps, {initializeApp})(App);

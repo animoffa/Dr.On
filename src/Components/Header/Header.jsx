@@ -14,13 +14,10 @@ const Header = (props) => {
         </div>
         <div className={m.auth}>
             <div className={m.authLogin}>
-                {props.isAuth ? <button>{props.login}</button>: <NavLink to="/login" > login</NavLink>}
-
+                {props.isAuth ? <NavLink to="/profile" className={m.authText}>{props.login}</NavLink>: <NavLink to="/login" className={m.authText}> login</NavLink>}
             </div>
             <div >
-                {props.isAuth
-                    ? <div onClick={props.logout}><img src={exit} alt="Logout" width="35px" /></div>
-                    : <NavLink to="/sign-up"  > Sign-up</NavLink>}
+                {props.isAuth &&<div onClick={props.logout}><img src={exit} alt="Logout" width="35px" /></div>}
             </div>
         </div>
     </header>

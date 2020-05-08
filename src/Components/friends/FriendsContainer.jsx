@@ -17,22 +17,21 @@ import {
     getIsFetching,
     getPageSize,
     getTotalUsersCount,
-    getUsersSelector
+    getUsersS,
 } from "../../Redux/usersSelectors";
 
 class FriendsAPIComponent extends React.Component {
     componentDidMount() {
-        const {currentPage,pageSize}=this.props;
+        const {currentPage, pageSize} = this.props;
         this.props.getUsers(currentPage, pageSize);
     }
 
     onPageChanged = (page) => {
-        const {pageSize}=this.props;
-        this.props.getUsers(page,pageSize);
+        const {pageSize} = this.props;
+        this.props.getUsers(page, pageSize);
     };
 
     render() {
-
         return <>
             <Friends onPageChanged={this.onPageChanged} totalUsersCount={this.props.totalUsersCount}
                      pageSize={this.props.pageSize} currentPage={this.props.currentPage}
@@ -50,7 +49,7 @@ class FriendsAPIComponent extends React.Component {
 
 let mapStateToProps = (state) => {
     return {
-        users: getUsersSelector(state),
+        users: getUsersS(state),
         pageSize: getPageSize(state),
         totalUsersCount: getTotalUsersCount(state),
         currentPage: getCurrentPage(state),

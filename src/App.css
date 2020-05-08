@@ -11,14 +11,12 @@
     flex-direction: row;
     width: 1250px;
     justify-content: center;
-
 }
 
 .bg {
     background-color: #fbfdff;
     background-size: cover;
     background-attachment: fixed;
-
 }
 
 .main__content {
@@ -26,7 +24,6 @@
     background-color: rgba(230, 230, 250, 0.4);
     border-radius: 3px;
     height: 100%;
-
     margin-top: 70px;
 }
 
@@ -43,7 +40,6 @@
 @media (max-width: 870px) {
     .main__content {
         width: 100%;
-        margin:0;
+        margin: 0;
     }
-
 }

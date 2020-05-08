@@ -41,6 +41,15 @@ export const profileAPI={
     },
 UpdateStatus(status) {
         return instance.put(`profile/status/`, {status:status});
+    },
+    SavePhoto(photofile) {
+      let formData=new FormData();
+      formData.append("image",photofile);
+      return instance.put(`profile/photo`, formData, {
+          headers:{
+              'Content-Type':'multipart/form-data'
+          }
+      })
     }
 };
 
@@ -50,11 +59,18 @@ export const authAPI={
           return response.data;
       })
   },
-    login(email,password,rememberMe=false){
-        return instance.post(`auth/login`, {email,password,rememberMe})
+    login(email,password,rememberMe=false,captcha=null){
+        return instance.post(`auth/login`, {email,password,rememberMe,captcha})
     },
     logout(){
         return instance.delete(`auth/login`)
 
     },
+};
+
+export const securityAPI={
+    getCaptchaURL (){
+        debugger;
+        return instance.get(`security/get-captcha-url`);
+    }
 };
